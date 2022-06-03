@@ -1,0 +1,131 @@
+/*-------------------------------CABEÇALHO---------------------------------*/
+.cabecalhoPrincipal .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+@media screen and (max-width: 980px) {
+    .cabecalhoPrincipal .container{
+        flex-direction: column;
+    }
+    .cabecalhoPrincipal-nav{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        width: 100%;
+    }
+    .cabecalhoPrincipal-nav-link{
+        border: 0;
+        border-bottom: 1px solid;
+        border-radius: 0;
+        margin-left: 0;
+    }
+    .cabecalhoPrincipal-titulo{
+        margin-bottom: 1rem;
+    }
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1;
+    }
+}
+/*---------------------------LISTA CURSOS---------------------------------*/
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.conteudoPrincipal-cursos-link{
+    margin: 1%;
+    width: 23%;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
+}
+@media screen and (max-width: 980px) {
+    .subtitulo{
+        text-align: center;
+    }
+    .conteudoPrincipal-cursos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+    }
+    
+}
+/*---------------------------LISTA CURSOS---------------------------------*/
+.videoSobre .container{
+    display: flex;
+    
+}
+.videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 2;
+}
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+.videoSobre-video{
+    flex-grow: 1;
+}
+@media screen and (max-width: 980px) {
+    .videoSobre .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .videoSobre-video{
+        flex-shrink: 2;
+    }
+    }
+/*-----------------------------RODAPÉ-----------------------------------*/
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 260px;
+}
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex
+}
+@media screen and (max-width: 980px) {
+    .rodapePrincipal-navMap-list{
+        flex-direction: column;
+        height: auto;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodapePrincipal-patrocinadores-list {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        width: auto;
+        height: 150px;
+        justify-content: space-between;
+    }
+    .rodapePrincipal-contatoForm{
+        width: auto;
+    }
+}
