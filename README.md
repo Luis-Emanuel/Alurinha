@@ -1,7 +1,7 @@
 <h1 align="center">Alurinha</h1>
 <p align="center">É uma página de gerenciamento de cursos online. Seu desenvolvimento tem como objetivo colocar  em pratica conhecimentos de flexbox </p>
 <div align="center">
-<img src="https://user-images.githubusercontent.com/43679743/210637069-fe8c7ac0-2a0c-4ea8-97eb-e509f51183c1.svg" width="200px" />
+<img src="https://user-images.githubusercontent.com/43679743/215171005-534a78f9-0c1a-402f-a02f-dd9c83ca4b59.png" width="800px" />
 </div>	
 
  - Tecnlogias utilizadas:
