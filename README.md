@@ -20,7 +20,7 @@
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://luis-emanuel.github.io/Alurinha/).
+[Veja o projeto final do curso em funcionamento](https://alurinha-nt.vercel.app/).
 
 ## 📷FOTOS DO PROJETO
 <div align="center">
